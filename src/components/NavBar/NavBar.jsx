@@ -53,18 +53,7 @@ export default function BetterNavbar() {
                   <Text fontWeight="bold">Home</Text>
                 </HStack>
               </ReachLink>
-              <ReachLink
-                px={2}
-                py={1}
-                rounded="md"
-                _hover={{ textDecoration: 'none' }}
-                to="/about"
-              >
-                <HStack>
-                  <InfoIcon />
-                  <Text fontWeight="bold">About</Text>
-                </HStack>
-              </ReachLink>
+              
             </HStack>
           </HStack>
         </Flex>
